@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Task1",
+      "setup": "sudo apt-get update && sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0",
+      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test --filter ClassName=Test_Task1.UnitTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 25
+    },
+    {
+      "name": "Task2_minimum_number",
+      "setup": "sudo apt-get update && sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0",
+      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test --filter ClassName=Test_Task2.UnitTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 25
+    },
+    {
+      "name": "Task3_Risk_of_Heart_attack",
+      "setup": "sudo apt-get update && sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0",
+      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test --filter ClassName=Test_Task3.UnitTest3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 25
+    },
+    {
+      "name": "Task4_Calculator",
+      "setup": "sudo apt-get update && sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0",
+      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test --filter ClassName=Test_Task4.UnitTest4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}

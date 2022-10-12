@@ -1,7 +1,7 @@
 <div id="container" style="white-space:nowrap">
 
   <div id="image" style="display:inline float: right;">
-        <img style="float: left;" src="https://github.com/GSO-SW/conditionals_challenge_autograding/blob/main/AddFiles/C%23_logo.png" alt="drawing" width="8%"/>
+        <img style="float: left;" src="https://github.com/AI-Assistant/conditionals_challenge_autograding/blob/main/AddFiles/C%23_logo.png" alt="drawing" width="8%"/>
   </div>
 
   <div id="texts" style="display:inline; white-space:nowrap; float: right;"> 
@@ -67,7 +67,7 @@ This program should ask the user where his journey begins and where it ends. Aft
 > + Give the labels "Start:", "End:", "Distance" and "Duration:" a total of **ten** characters
 
 Example output/result:
-![alt text](https://github.com/GSO-SW/conditionals_challenge_autograding/blob/main/AddFiles/Task1_example.jpg)
+![alt text](https://github.com/AI-Assistant/conditionals_challenge_autograding/blob/main/AddFiles/Task1_example.jpg)
 
 ---
 
@@ -81,10 +81,10 @@ This program reads two numbers from the user and outputs the **smaller** of the 
 > + Note the after "... first value:" and "... second value:" must not be followed by any character (including spaces)
 
 Example 1 (Same value) output/result:
-![alt text](https://github.com/GSO-SW/conditionals_challenge_autograding/blob/main/AddFiles/Task2_example1.jpg)
+![alt text](https://github.com/AI-Assistant/conditionals_challenge_autograding/blob/main/AddFiles/Task2_example1.jpg)
 
 Example 2 outpu/result:
-![alt text](https://github.com/GSO-SW/conditionals_challenge_autograding/blob/main/AddFiles/Task2_example2.jpg)
+![alt text](https://github.com/AI-Assistant/conditionals_challenge_autograding/blob/main/AddFiles/Task2_example2.jpg)
 
 ---
   
@@ -105,7 +105,7 @@ Table 62%.
 > + Note that the user answers the questions with **true** or **false**
 
 Example output/result:
-![alt text](https://github.com/GSO-SW/conditionals_challenge_autograding/blob/main/AddFiles/Task3_example.jpg)
+![alt text](https://github.com/AI-Assistant/conditionals_challenge_autograding/blob/main/AddFiles/Task3_example.jpg)
   
 ---
 
@@ -125,5 +125,5 @@ You calculate the power of a number with the method 'Math.Pow()'.
 > +  You calculate the power of a number with the method 'Math.Pow()'.
 
 Example output/result:
-![alt text](https://github.com/GSO-SW/conditionals_challenge_autograding/blob/main/AddFiles/Task4_example.jpg)
+![alt text](https://github.com/AI-Assistant/conditionals_challenge_autograding/blob/main/AddFiles/Task4_example.jpg)
 

@@ -3,6 +3,9 @@ name: Backup Issues and Milestones
 on:
   workflow_dispatch:
 
+env:
+  TEST_TOKEN: ${{ secrets.TEST_TOKEN }}
+
 jobs:
   backup:
     runs-on: ubuntu-latest
@@ -13,5 +16,3 @@ jobs:
     - name: Check Token
       run: |
         curl -v -H "Authorization: token $TEST_TOKEN" https://api.github.com/user/issues
-    
-    

@@ -1,0 +1,17 @@
+name: Backup Issues and Milestones
+
+on:
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Check Token
+      run: |
+        curl -v -H "Authorization: token $GSO_TOKEN_TEST" https://api.github.com/user/issues
+    
+    

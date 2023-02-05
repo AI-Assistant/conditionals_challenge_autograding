@@ -12,6 +12,6 @@ jobs:
       uses: actions/checkout@v2
     - name: Check Token
       run: |
-        curl -v -H "Authorization: token $GSO_TOKEN_TEST" https://api.github.com/user/issues
+        curl -v -H "Authorization: token $TEST_TOKEN" https://api.github.com/user/issues
     
     

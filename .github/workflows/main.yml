@@ -1,3 +1,14 @@
+jobs:
+  use_api:
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GSO_TOKEN_TEST }}
+        run: |
+          gh api /octocat
+          
+          
 name: Backup Issues and Milestones
 
 on:
